@@ -1,0 +1,43 @@
+#question {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  #answer {
+    font-size: 30px;
+    width: 100px;
+  }
+  #result {
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  #next {
+    font-size: 20px;
+    display: none;
+    background: aquamarine;
+    width: 15%;
+    border-radius: 3px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  body{
+    height: 100%;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("spongebobb.jpeg");
+    background-size: 1500px 650px
+}
+
+h1{
+  color: olive;
+}
+@keyframes blink-animation{
+  0% {opacity: 1.0;}
+  50% {opacity: 0.0;}
+  100% {opacity: 1.0;}
+}
+
+.blink{
+  animation: blink-animation 1s infinite; /*waktu teks berkedip*/
+}
+
